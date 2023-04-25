@@ -226,13 +226,13 @@ mobileSidebar status toggle =
                             Attr.class "opacity-100"
 
                         Opening ->
-                            Attr.class "opacity-100 transition-opacity ease-linear duration-300"
+                            Attr.class "opacity-100 transition-opacity ease-in duration-300"
 
                         Closed ->
                             Attr.class "opacity-0"
 
                         Closing ->
-                            Attr.class "opacity-0 transition-opacity ease-linear duration-300"
+                            Attr.class "opacity-0 transition-opacity ease-linear duration-100"
                     ]
                     [ button
                         [ Attr.type_ "button"
